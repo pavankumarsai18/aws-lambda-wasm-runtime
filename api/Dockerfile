@@ -14,4 +14,7 @@ RUN ./pre.sh
 # Bundle the JS files
 COPY *.js ./
 
+# EXPOSE port 5000
+EXPOSE 5000
+
 CMD [ "hello.handler" ]
