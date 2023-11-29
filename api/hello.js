@@ -52,6 +52,6 @@ exports.handler = async function(event, context) {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT"
     },
-    body: result
+    body: remaining_time.toString() + " " +     model_time.toString()
   };
 }
